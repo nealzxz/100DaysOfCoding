@@ -17,7 +17,7 @@ def compare(a, b):
     return 0
 #ask a guess
 def guess_hl():
-  return input("h or l")
+  return input("h or l").lower()
 #check answer
 end_of_game = False
 
